@@ -2,6 +2,10 @@
 
 AI-powered web application that analyzes resumes and provides ATS-style feedback, keyword matching, and improvement suggestions.
 
+🌐 **Live Demo:** https://ai-resume-analyzer-ivory-psi.vercel.app  
+
+---
+
 ## ✨ Features
 
 * Analyze resume (paste text or upload PDF)
