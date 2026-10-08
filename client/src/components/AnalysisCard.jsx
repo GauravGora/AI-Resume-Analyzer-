@@ -108,6 +108,14 @@ function AnalysisCard({ analysis, loading }) {
         color="yellow"
       />
 
+      {showAtsSection && analysis.atsSuggestions?.length > 0 && (
+        <AnalysisSection
+          title="ATS Optimization Suggestions"
+          items={analysis.atsSuggestions}
+          color="blue"
+        />
+      )}
+
       <AnalysisSection
         title="Actionable Suggestions"
         items={analysis.suggestions}
